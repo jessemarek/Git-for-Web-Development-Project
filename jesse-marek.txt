@@ -23,7 +23,7 @@ Review Questions
         necessarily want to have displayed as part of the page.
 
     7. What is an id? 
-        An id is a unique name used to find a specific element on a page
+        An id is an attribute used to find a specific element on a page.
 
     8. What elements can I add an id to? 
         You can add an id to any element.
@@ -32,7 +32,7 @@ Review Questions
         An id can only be used one time 
 
     10. What is a class?
-        A class is similar to an id in that it is a way to identify an element, 
+        A class is an attribute similar to an id in that it is a way to identify an element, 
         but it isn't a unique name and can be used on many elements at the same time.
 
     11. What elements can I add a class to? 
@@ -40,16 +40,45 @@ Review Questions
 
     12. How many times can I use the same class on a page? 
         As many times as you want.
-        
+
     13. How do I get my link to open in a new tab?
+        A link can be opened in a new tab by utilizing the target 
+        attribute with the _blank value. 
+        Example: <a href="https://www.google.com/" target="_blank">Click Here</a>
+
     14. What is the alt attribute used for? 
+        It is used to provide alternate information for an image in case it doesn't load 
+        or if the user is using a device such as a screen reader and cannot view the image
+
     15. How do I reference an id?
+        You can reference an id by using a # followed by the id.
+        Example: #myId
+
     16. What is the difference between a section and a div
+        A section element is a semantic element and a div is not.
+
     17. What is CSS used for? 
+        CSS is used to give a website styles and formating. It tells the browser how to display the HTML.
+
     18. How to we select an element? Example - every h2 on the page
+        You select an element by simply typing the name of the HTML element. 
+        Example: h2 {   }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class is a name used to identify an element but it is not unique to that element. 
+        An id is a unique identifier for that element. No other element in the document can have the same id as another element.
+
+        A class might be used for all of the <section> elements in a document to give them uniform style, but you might give each 
+        one a unique id so you can use navigation links for the user to quickly get to the section they want. 
+
     20. How do we select classes in CSS?
+        the class selector in CSS is a dot(.) folled by the class name.
+        Example .myClass { }
+
     21. How do we select a p element with a single class of “human””?
+        You can target a specific element and class by combining the name of the element and the class name
+        Example: p.human { }
+        
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
