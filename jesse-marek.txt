@@ -149,14 +149,17 @@ Stretch Questions
         A block element always starts on a new line and takes up the entire width of the document.
 
     2. What happens when an element is positioned absolutely?
-
-
+        An element with position: absolute is postioned relative to the nearest positioned ancestor 
+        instead of being relative to the viewport. If the nearest ancestor is not positioned then it 
+        is positioned relative to the document body
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        The min-width property allows an element to have a minimum width but can also expand if the content needs more 
+        room than defined in the min-width property
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
         <header> , <section> and <footer> are all display block by default.
-        <a> , <span> and <input> are all disply inline by default.
+        <a> , <span> and <img> are all disply inline by default.
         <button> is inline-block by default.
 
     5. In your own words, explain the box model. What is the fix for the box model? 
