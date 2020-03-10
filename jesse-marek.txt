@@ -140,7 +140,9 @@ Review Questions
         Create a branch ($ git checkout -b "firstName-lastName") > 
         Make changes to files and save > Add changes to git ($ git add .) >
         Commit changes ($ git commit -m "message of what we have done") > 
-        Push changes to GitHub ($ git push -u origin "firstName-lastName")
+        Push changes to GitHub ($ git push -u origin "firstName-lastName") >
+        When ready to turn in assignment create a pull request. 
+        Set to compare to your personal repo master and add TL as a reviewer.
 
 Stretch Questions
 
