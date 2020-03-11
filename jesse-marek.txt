@@ -156,8 +156,7 @@ Stretch Questions
         is positioned relative to the document body
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-        The min-width property allows an element to have a minimum width but can also expand if the content needs more 
-        room than defined in the min-width property
+        Use the display: inline-block property and value.
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
         <header> , <section> and <footer> are all display block by default.
@@ -165,6 +164,9 @@ Stretch Questions
         <button> is inline-block by default.
 
     5. In your own words, explain the box model. What is the fix for the box model? 
-
+        A series of boxes nested inside each other with different properties. Margin, Border, Padding 
+        and Content are the elements of the box model. The problem is when defining a size adding padding 
+        and/or a border increases the total size of the element. Using box-sizing: border-box will confine 
+        the border and padding to the width and height the element has been given.
 
 
